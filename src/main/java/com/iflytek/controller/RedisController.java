@@ -21,4 +21,8 @@ public class RedisController {
         redisTemplate.opsForValue().set("person1",person);
         return "";
     }
+
+    public void as(){
+        System.out.println("hello");
+    }
 }
