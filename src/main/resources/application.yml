@@ -1,0 +1,9 @@
+spring:
+  redis:
+    port: 6379
+    host: 127.0.0.1
+    jedis:
+      pool:
+        max-idle: 8 #最大闲置数
+        min-idle: 1 #最小闲置数
+        max-active: 8 #最大活动连接数
